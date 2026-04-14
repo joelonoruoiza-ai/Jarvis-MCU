@@ -32,7 +32,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
-import anthropic
+import google.generativeai as genai
 import httpx
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
